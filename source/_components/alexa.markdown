@@ -216,7 +216,7 @@ To start, you need to get the skill id:
    - Locate the skill for which you would like Launch Request support
    - Click the "View Skill ID" link and copy the ID
 
-The configuration is the same as an intent with the exception being you will use your skill ID instead of the intent name.
+The configuration is the same as an intent with the exception being you will use your skill ID instead of the intent name. Additionally, the "Invocation name" is what you tell Alexa. In the example below, the invocation name would be "Red Alert".
 ```yaml
 intent_script:
   amzn1.ask.skill.08888888-7777-6666-5555-444444444444:
